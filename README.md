@@ -1,9 +1,7 @@
 # Dog-image-classification
 Use convolutional neural network to to dog images and classify dog breed
 
-##############################
 ## Project procedure overview
-##############################
 * Load data
     * Get all image path: np.array(glob())  
 * Use `pre-trained model` to detect `human faces`
@@ -44,9 +42,8 @@ Use convolutional neural network to to dog images and classify dog breed
     - combine above functions: human_face_detector / dog_face_detector / dog_breed_predictor to show image results  
     
     
-###################################
+
 ## Approaches to improve accuracy
-###################################
 - There are possible methods to further improve the accuracy:
     - Increase the image datasets for training. Data augmentation such as image rotation, flipping, etc would help inprove model performance. 
     - Tune Hyperparameters: weigth initialization, number of epoches, learning rate, dropouts, batch size, more convolutional layers (filters) to detect features, filter size, stride, etc

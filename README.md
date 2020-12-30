@@ -46,5 +46,5 @@ Use convolutional neural network to to dog images and classify dog breed
 ## Approaches to improve accuracy
 - There are possible methods to further improve the accuracy:
     - Increase the image datasets for training. Data augmentation such as image rotation, flipping, etc would help inprove model performance. 
-    - Tune Hyperparameters: weigth initialization, number of epoches, learning rate, dropouts, batch size, more convolutional layers (filters) to detect features, filter size, stride, etc
+    - Tune Hyperparameters: weigth initialization, number of epoches, learning rate, dropouts, batch size, more convolutional layers (filters) to detect features, filter size, stride, etc.
     - This model wrongly detected a cat as human. Train other species may also improve the accuracy by distinguishing dogs from other species. 
